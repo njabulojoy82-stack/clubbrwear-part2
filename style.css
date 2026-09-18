@@ -1,0 +1,192 @@
+/* Main page style for clubbrWear */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+header h1 {
+    margin: 10px 0 5px;
+}
+
+.tagline {
+    margin: 5px 0;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 18px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: #555;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.hero-image {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.product-card img,
+.service-image {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button,
+button {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover,
+button:hover {
+    background-color: #555;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.contact-info p {
+    margin: 8px 0;
+}
+
+.footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .navbar li {
+        display: block;
+    }
+
+    .navbar a {
+        border-bottom: 1px solid #555;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        width: 95%;
+    }
+}
